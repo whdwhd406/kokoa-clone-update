@@ -1,0 +1,33 @@
+.friends-header {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.friends-header h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.icon-header i {
+  font-size: 25px;
+}
+.icon-header span {
+  margin-left: 15px;
+}
+
+.fa-cog:hover {
+  animation: rotatecog linear 2s infinite;
+}
+
+@keyframes rotatecog {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}

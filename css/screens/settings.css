@@ -1,0 +1,53 @@
+.settings-header {
+  padding: var(--horizontal-space);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.settings-title {
+  width: 33%;
+}
+.settings-title:first-child {
+  margin-right: auto;
+}
+
+.settings-title:nth-child(2) {
+  text-align: center;
+}
+.settings-title:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.settings-title h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.setting-badge {
+  font-size: 15px;
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 25px;
+  background-color: rgb(236, 83, 83);
+  position: absolute;
+  left: 130px;
+  bottom: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-screen {
+  margin-top: 50px;
+}

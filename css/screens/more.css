@@ -1,0 +1,60 @@
+.more-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.icon-row {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icon-row i {
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+.icon-row span {
+  margin-bottom: 15px;
+}
+
+.more-icon__second {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-underline {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
+}
+
+.bottom-title {
+  font-weight: bolder;
+}
+
+.more-icon__third {
+  width: 76%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-icon__third img {
+  padding: 0px 0px 10px 21px;
+  width: 50%;
+  height: 53%;
+  display: flex;
+}
+.more__notification-dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  display: flex;
+  position: absolute;
+  left: 205px;
+}

@@ -1,0 +1,41 @@
+@import "status-bar.css";
+@import "reset.css";
+@import "variables.css";
+
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/header.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "no-mobile.css";
+
+@import "components/nav-bar.css";
+@import "components/reply.css";
+body {
+  color: #2e363e;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1000vh;
+}
+
+.index-title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 90px 0px;
+}
+
+.index-title__text {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.index-subtitle__text {
+  text-align: center;
+  width: 50%;
+  color: darkgray;
+}

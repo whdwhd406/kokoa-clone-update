@@ -1,0 +1,145 @@
+.find-icon__dot {
+  position: absolute;
+  right: 18px;
+  top: 58px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: rgb(236, 83, 83);
+}
+
+.find-icon__list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.find-icon__list {
+  text-align: center;
+}
+
+.find-icon__list i {
+  display: block;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.find-icon__list span {
+  align-items: center;
+}
+
+.find-underline {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+.find-middle__title {
+  padding-bottom: 100px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}
+
+.find-middle__subtitle {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 100px;
+  font-size: 17px;
+}
+
+.find-bottom__text {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+}
+.find__column i {
+  font-size: 14px;
+}
+
+.find__news {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-news__image {
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.find-profile__image {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.find-news__first {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.find-news__second {
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+.find-news__third {
+  opacity: 0.7;
+}
+.find-members .divider {
+  width: 2px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.find-members {
+  display: flex;
+  align-items: center;
+}
+
+.find-news__fourth {
+  color: rgb(236, 105, 193);
+}
+.find-heartbox {
+  position: relative;
+  height: 20px;
+  width: 50px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.find-heart__count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -30px;
+  right: -45px;
+}
+.find-heart__count i {
+  margin-right: 3px;
+}
+.find-heart__count span {
+  font-size: 14px;
+}
+
+.find-heart__count:hover i {
+  will-change: transform;
+  animation: heartbeat linear 0.8s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+  }
+}

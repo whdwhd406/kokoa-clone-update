@@ -1,0 +1,76 @@
+main {
+  padding: var(--horizontal-space);
+}
+.friends-banner {
+  width: 100%;
+  background-color: rgb(243, 243, 243, 0.7);
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.friends-banner a {
+  color: rgb(43, 43, 43);
+}
+
+.friends-banner i {
+  opacity: 0.2;
+}
+.friends-profile {
+  margin-bottom: 15px;
+  display: flex;
+}
+.friends-profile:first-child span {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.friends-profile img {
+  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.friends-border {
+  border: solid 1px rgb(204, 204, 204, 0.2);
+  margin-bottom: 5px;
+}
+
+.friends-channel__up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends-channel__text,
+.friends-channel__arrow {
+  opacity: 0.5;
+}
+
+.firends-profile__second {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends-channel__column {
+  display: flex;
+  align-items: center;
+}
+
+.friends-channel__column:last-child span {
+  margin-right: 3px;
+}
+.friends-channel__column:last-child {
+  opacity: 0.5;
+}
+.chats-talklist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chats-time {
+  opacity: 0.6;
+}
